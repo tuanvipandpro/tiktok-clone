@@ -18,6 +18,7 @@ function App() {
             ({messages, url, likes, shares, description, channel, song}, i) => {
               return <Video
                 key={i}
+                index={i}
                 messages={messages}
                 likes={likes}
                 shares={shares}
